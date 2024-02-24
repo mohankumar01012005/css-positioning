@@ -1,0 +1,45 @@
+/* Reset default margin and padding */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style the content */
+.content {
+  margin-top: 50px; /* Adjust to accommodate the fixed navigation bar */
+  padding: 20px;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.content p {
+  text-align: center;
+}
